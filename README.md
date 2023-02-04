@@ -16,7 +16,7 @@ This theme is made to look like the default `bash` prompt, but colored. It also 
     curl -sfSL "https://raw.githubusercontent.com/Elagoht/BashPlusZshTheme/main/bashplus.zsh-theme" -o ~/.oh-my-zsh/themes/bashplus.zsh-theme
     ```
 1. Edit `~/.zshrc` file
-    1. Change the `ZSH_THEME` line to `ZSH_THEME="simple bash"`
+    1. Change the `ZSH_THEME` line to `ZSH_THEME="bashplus"`
     1. Add `virtualenv` into `plugins=()' list (separate with space).
 1. Save the file.
 1. Open a new `zsh`.
