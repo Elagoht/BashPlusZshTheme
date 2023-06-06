@@ -10,5 +10,5 @@ sed -i 's/^ZSH_THEME=.*/ZSH_THEME="bashplus"/' ~/.zshrc
 
 if [[ ! "$(grep '^plugins' ~/.zshrc)" =~ "virtualenv" ]] # If not already added
 then # add the virtualenv plugin
-    sed 's/^plugins=(/plugins=(virtualenv /' ~/.zshrc
+    sed -i 's/^plugins=(/plugins=(virtualenv /' ~/.zshrc
 fi
